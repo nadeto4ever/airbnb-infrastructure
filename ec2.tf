@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
   monitoring = true
   ebs_optimized = true
   root_block_device {
-    encypted = true
+    encrypted = true
   }
 
   tags = {
